@@ -12,4 +12,6 @@ RUN npm run build
 
 RUN npx prisma generate
 
+RUN npm test
+
 CMD [ "npm", "start"]
